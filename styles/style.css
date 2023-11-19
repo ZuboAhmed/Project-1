@@ -72,8 +72,13 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-.about{
+section{
     margin-top: 130px;
+
+}
+
+.about{
+    
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -82,9 +87,10 @@ main{
 
 }
 .section-tittle{
-    
+    font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 
 }
 .sec-pera{
@@ -108,5 +114,28 @@ main{
     color: rgb(34, 33, 33);
 
 
+
+}
+.what-i-do{
+    
+}
+.skills-cointainer{
+    display: flex ;
+}
+.skill-tittle{
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+.skill-description{
+    color:#757575;
+}
+.skill{
+    background: white;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top:30px ;
+    margin-bottom: 20px;
 
 }
